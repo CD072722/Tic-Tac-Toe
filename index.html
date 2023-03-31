@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="ttt">Tic-Tac-Toe</h1>
+    <div class="players">
+        <label>Player 1:</label><br />
+        <input type="text" name = "player1" id="p1" placeholder="Enter Name"/><br />   
+      <button id="startGame">Start Game</button>
+        <label>Player 2:</label><br />
+        <input type="text" name="player2" id="p2" placeholder="Enter Name/Computer"/><br />
+    </div>
+    <div class="finalNames">
+        <h3 class="firstName"></h3>
+        <h3 class="secondName"></h3>
+    </div>
+    <h1 class="winningStatement"></h1>
+    <div class="playBoard">
+      <table>
+        <tr>
+          <div class="00" id="box"></div>
+          <div class="01" id="box"></div>
+          <div class="02" id="box"></div>
+        </tr>
+        <tr>
+          <div class="10" id="box"></div>
+          <div class="11" id="box"></div>
+          <div class="12" id="box"></div>
+        </tr>
+        <tr>
+          <div class="20" id="box"></div>
+          <div class="21" id="box"></div>
+          <div class="22" id="box"></div>
+        </tr>
+      </table>
+    </div>
+    <div class="reset">
+      <button id="resetButton">Reset</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

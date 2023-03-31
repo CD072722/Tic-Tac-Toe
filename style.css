@@ -1,0 +1,71 @@
+.ttt{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 17px;
+    background-color: rgb(177, 172, 172);
+    border: 2px dotted black;
+}
+
+
+.players{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+label{
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+}
+#startGame{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+.finalNames{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    margin-left: 115px;
+    margin-right: 125px;
+}
+
+
+.winningStatement{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.playBoard{
+    display:flex;
+    flex-wrap: wrap; 
+    flex-basis: 33%;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+}
+#box{
+    display: flex;
+    flex-basis: 30%; 
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    text-justify: center;
+    font-size: 150px;
+    padding-left: 10px;
+}
+
+
+.reset{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
